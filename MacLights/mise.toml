@@ -1,0 +1,24 @@
+[env]
+NAME = "AcutusChroma"
+
+[tasks.install]
+run = [
+  "mise run install-file alldesktops.svg",
+  "mise run install-file close.svg",
+  "mise run install-file help.svg",
+  "mise run install-file keepbelow.svg",
+  "mise run install-file keepabove.svg",
+  "mise run install-file maximize.svg",
+  "mise run install-file minimize.svg",
+  "mise run install-file ${NAME}rc",
+  "mise run install-file restore.svg",
+  "mise run install-file appmenu.svg",
+  "mise run install-file decoration.svg",
+  "mise run install-file metadata.desktop",
+]
+
+[tasks.install-file]
+run = 'install -D {{arg(i=1)}} $HOME/.local/share/aurorae/themes/$NAME/{{arg(i=1)}}'
+
+[tasks.uninstall]
+run = 'rm -rf $HOME/.local/share/aurorae/themes/$NAME'

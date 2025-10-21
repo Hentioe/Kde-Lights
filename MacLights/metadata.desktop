@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=MacLights
+Comment=macOS-like window decoration and buttons
+
+X-KDE-PluginInfo-Name=MacLights
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Author=Hentioe
+X-KDE-PluginInfo-Email=contact@hentioe.dev
+X-KDE-PluginInfo-Website=https://github.com/Hentioe/MacLights
+X-KDE-PluginInfo-License=GPL v3.0
+
+Type=Application
+X-KDE-PluginInfo-EnabledByDefault=true
