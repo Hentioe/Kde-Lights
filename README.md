@@ -24,3 +24,7 @@ Kde-Lights 的设计语言是：
 
 - 分数缩放环境，偶数宽度/高度的窗口可能会在单侧多出 1px 的边缘。这可能是 KDE 的 bug，主题无法修复。
 - 圆角处可能看到模糊的直角虚边（通过放大镜），这似乎是过往 KDE 的 bug 回归。本主题无能无力。
+
+## 其它主题
+
+- [AcutusChroma](https://github.com/Hentioe/AcutusChroma)：类似 Chromium 内建 CSD 风格的窗口装饰主题。
