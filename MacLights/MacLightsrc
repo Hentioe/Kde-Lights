@@ -6,6 +6,9 @@ InactiveTextColor=#939393
 UseTextShadow=false
 
 [Layout]
+BorderLeft=0
+BorderRight=0
+BorderBottom=0
 ButtonHeight=16
 ButtonWidth=16
 ButtonSpacing=6
