@@ -1,0 +1,12 @@
+tasks {
+    install {
+        - "doer install"
+        arg dir
+        cwd "{dir}"
+    }
+    uninstall {
+        - "doer uninstall"
+        arg dir
+        cwd "{dir}"
+    }
+}

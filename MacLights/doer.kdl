@@ -1,0 +1,19 @@
+vars {
+    dir     "$HOME/.local/share/aurorae/themes/MacLights/"
+    files   close.svg         help.svg \
+            keepbelow.svg     keepabove.svg \
+            maximize.svg      minimize.svg \
+            restore.svg       appmenu.svg \
+            decoration.svg    MacLightsrc \
+            metadata.desktop
+}
+
+tasks {
+    install {
+        - "mkdir -p {dir}"
+        - "install -D {files} {dir}"
+    }
+    uninstall {
+        - "rm -rf {dir}"
+    }
+}
